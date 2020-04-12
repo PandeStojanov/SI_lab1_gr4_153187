@@ -6,6 +6,12 @@ class Point {
 	//TODO add new variable
 
 	//TODO constructor
+	public Point(String id, double x, double y, String color) {
+		this.id = id;
+		this.x = x;
+		this.y = y;
+		this.color = color;
+	}
 
 	//TODO setters and getters
 
